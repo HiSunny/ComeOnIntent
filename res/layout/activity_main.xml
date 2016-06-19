@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sunny.example.comeonintent.MainActivity" >
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"             
+         /><!-- android:gravity 文字的对齐方式
+         android:layout_gravity 控件相对父控件的相对位置 -->
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+    <TextClock
+        android:id="@+id/textClock"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+    <DigitalClock 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF00FF00"
+        android:textSize="24sp"
+        />
+    <ProgressBar
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        style="?android:attr/progressBarStyleLarge"
+        android:max="100"/>
+
+</LinearLayout>
+<!-- style="?android:attr/progressBarStyleHorizontal"
+style="?android:attr/progressBarStyleSmall"
+style="?android:attr/progressBarStyleLarge"
+style="?android:attr/progressBarStyleSmallTitle"   -->
